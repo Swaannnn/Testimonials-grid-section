@@ -47,13 +47,18 @@ section {
 
     border-radius: 10px;
     padding: 30px;
+
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
 }
 
 .pattern {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     top: 5%;
     left: 35%;
-    z-index: 0;
+    z-index: 0; */
 }
 
 .grid1 .photo {
