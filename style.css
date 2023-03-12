@@ -8,6 +8,10 @@
 
 body {
     background-color: hsl(210, 46%, 95%);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 { font-size: 15px; font-weight: 600; }
@@ -23,6 +27,8 @@ section {
     grid-row-gap: 20px;
 
     margin: 2% 10%;
+
+    max-width: 1200px;
 }
 
 .grid-head {
@@ -111,7 +117,7 @@ section {
 
 footer {
     position: fixed;
-    bottom: 10;
+    bottom: 10px;
     font-size: 11px;
     text-align: center;
     width: 100%;
